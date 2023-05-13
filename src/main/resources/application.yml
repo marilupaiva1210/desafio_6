@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: native
+  mvc:
+    pathmatch:
+      matching-stratedy: ant-path-matcher
+  datasource:
+    url: jdbc:postgresql://desafiodb.postgres.database.azure.com/postgres2
+    username: marilupaiva
+    password: Ma12rilu10
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
